@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ai-universitet"
+version = "0.1.0"
+description = ""
+authors = ["gordondalos <gordondalos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+jupyter = "^1.0.0"
+torch = "^1.13.1"
+torchvision = "^0.14.1"
+torchaudio = "^0.13.1"
+tensorflow = "^2.11.0"
+matplotlib = "^3.7.0"
+scipy = "^1.10.1"
+pandas = "^1.5.3"
+ultralytics = "^8.0.45"
+dill = "^0.3.6"
+onnxruntime = "^1.14.0"
+keras2onnx = "^1.7.0"
+joblib = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
